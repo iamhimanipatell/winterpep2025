@@ -1,0 +1,58 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .testimonials-container {
+    max-height: 200px; /* Set a fixed height for scrolling */
+    overflow: hidden; /* Hide anything that overflows */
+    padding: 10px;
+    border-top: 2px solid #eee;
+  }
+  
+  .testimony {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+    opacity: 0; /* Make testimonies invisible initially */
+    transform: translateY(50px); /* Position them below */
+  }
+  
+  /* Animation for testimony scrolling */
+  @keyframes scrollTestimony {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+  }
+  
