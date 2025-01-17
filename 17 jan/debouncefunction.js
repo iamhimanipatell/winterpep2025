@@ -1,9 +1,9 @@
 function debounce(func, delay) {
     let timeoutId;
-    
+
     return function (...args) {
         clearTimeout(timeoutId);
-        
+
         timeoutId = setTimeout(() => {
             func(...args);
         }, delay);
@@ -16,4 +16,6 @@ const handleResize = () => {
 
 const debouncedResize = debounce(handleResize, 500);
 
-window.addEventListener("resize", debouncedResize);
+setInterval(() => {
+    debouncedResize();
+}, 100);
