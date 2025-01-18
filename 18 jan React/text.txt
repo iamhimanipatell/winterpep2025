@@ -1,0 +1,5 @@
+react js
+npm
+libraries
+bootstraps -> jar files 
+
