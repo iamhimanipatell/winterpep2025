@@ -1,0 +1,7 @@
+questoins
+1. what is hte difference between state and statless component
+2. useeffect? what,when, how.
+3. useStae whate, when, how, where.
+4. React chart.
+5. what is handle.
+

@@ -1,0 +1,7 @@
+Events
+eventhandlers  -> nothing but are the functions 
+event propogataion -> bubbling and 
+
+event take place for both synchronous and asynchronous
+
+
