@@ -1,14 +1,11 @@
 import React from "react";
-import utility from "./Feb03/Utility";
-import {HelperUtility, HelperUtility2} from "./Feb03/Utility";
-
+import Navigaton_Bar from "./Feb04/Navigaton_Bar";
+import Footerr from "./Feb04/Footerr";
 function App() {
   return (
     <div className="App">
-     <>
-        <utility />
-        <HelperUtility></HelperUtility>
-        </>
+     <Navigaton_Bar />
+     <Footerr />
     </div>
   );
 }
